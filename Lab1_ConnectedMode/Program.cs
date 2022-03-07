@@ -1,0 +1,20 @@
+﻿using Lab1_ConnectedMode.GUI;
+using System;
+using System.Windows.Forms;
+
+namespace Lab1_ConnectedMode
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FormInheritance());
+        }
+    }
+}
